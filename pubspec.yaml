@@ -3,7 +3,7 @@ description: "a configurable package to detect shake gestures, using the sensors
 version: 0.1.2
 homepage: https://github.com/folksable/shake_detector
 issue_tracker: https://github.com/folksable/shake_detector/issues
-funding: 
+funding:
   - https://github.com/sponsors/folksable
 
 environment:
@@ -13,7 +13,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  sensors_plus: ^4.0.2
+  sensors_plus: '>=4.0.2 <7.0.0'
 
 dev_dependencies:
   flutter_test:
